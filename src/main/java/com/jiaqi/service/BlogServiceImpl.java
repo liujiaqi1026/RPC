@@ -1,4 +1,4 @@
-package com.jiaqi.server;
+package com.jiaqi.service;
 
 import com.jiaqi.common.Blog;
 import com.jiaqi.service.BlogService;
