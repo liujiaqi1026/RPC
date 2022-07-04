@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cd452472-a80c-423a-84b3-5a406a048b80" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jiaqi/client/RPCClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jiaqi/client/RPCClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jiaqi/server/RPCServer.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,6 +48,19 @@
   }
 }]]></component>
   <component name="RunManager" selected="Application.com.jiaqi.client.RPCClient">
+    <configuration name="TestServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.jiaqi.server.TestServer" />
+      <module name="untitled" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jiaqi.server.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="com.jiaqi.client.RPCClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.jiaqi.client.RPCClient" />
       <module name="untitled" />
@@ -76,6 +90,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.com.jiaqi.client.RPCClient" />
+        <item itemvalue="Application.TestServer" />
         <item itemvalue="Application.com.jiaqi.server.RPCServer" />
       </list>
     </recent_temporary>
