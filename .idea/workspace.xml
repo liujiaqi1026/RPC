@@ -6,8 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="cd452472-a80c-423a-84b3-5a406a048b80" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jiaqi/client/RPCClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jiaqi/client/RPCClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jiaqi/server/RPCServer.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
