@@ -1,6 +1,9 @@
 package com.jiaqi.client;
 
+import com.jiaqi.common.Blog;
 import com.jiaqi.common.User;
+import com.jiaqi.server.BlogServiceImpl;
+import com.jiaqi.service.BlogService;
 import com.jiaqi.service.UserService;
 
 public class RPCClient {
@@ -17,5 +20,9 @@ public class RPCClient {
         System.out.println("客户端发起请求，插入User。");
         Integer userId = proxy.insertUserId(User.builder().sex(true).userName("liujiaqi").id(111111).build());
         System.out.println("返回的userId." + userId);
+
+        BlogService proxy2 = clientProxy.getProxy(BlogService.class);
+        Blog blog = proxy2.getBlogById(22222);
+        System.out.println(blog);
     }
 }
